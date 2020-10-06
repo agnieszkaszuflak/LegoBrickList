@@ -1,0 +1,17 @@
+<?xml version ="1.0" encoding ="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreference
+        android:key="archived"
+        android:title="Show archived projects"
+        android:defaultValue="true"
+        />
+    <EditTextPreference
+        android:key="url"
+        android:title="URL"
+        android:defaultValue="http://fcds.cs.put.poznan.pl/MyWeb/BL/"
+        android:summary="http://fcds.cs.put.poznan.pl/MyWeb/BL/"
+        app:useSimpleSummaryProvider="true"
+        />
+
+</PreferenceScreen>
